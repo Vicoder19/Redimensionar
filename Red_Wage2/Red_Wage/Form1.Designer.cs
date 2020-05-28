@@ -129,12 +129,15 @@
             // btnAbrir
             // 
             this.btnAbrir.BackColor = System.Drawing.Color.Transparent;
-            this.btnAbrir.BackgroundImage = global::Red_Wage.Properties.Resources.imagem;
+            this.btnAbrir.BackgroundImage = global::Red_Wage.Properties.Resources.adicionar_pasta;
             this.btnAbrir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAbrir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAbrir.Location = new System.Drawing.Point(12, 14);
+            this.btnAbrir.FlatAppearance.BorderSize = 0;
+            this.btnAbrir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbrir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAbrir.Location = new System.Drawing.Point(24, 15);
             this.btnAbrir.Name = "btnAbrir";
-            this.btnAbrir.Size = new System.Drawing.Size(80, 50);
+            this.btnAbrir.Size = new System.Drawing.Size(62, 53);
             this.btnAbrir.TabIndex = 18;
             this.btnAbrir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAbrir.UseVisualStyleBackColor = false;
@@ -143,11 +146,15 @@
             // btnRedimensionar
             // 
             this.btnRedimensionar.BackColor = System.Drawing.Color.Transparent;
+            this.btnRedimensionar.BackgroundImage = global::Red_Wage.Properties.Resources.editar_imagem;
+            this.btnRedimensionar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRedimensionar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRedimensionar.Image = global::Red_Wage.Properties.Resources.editar_imagem;
-            this.btnRedimensionar.Location = new System.Drawing.Point(646, 14);
+            this.btnRedimensionar.FlatAppearance.BorderSize = 0;
+            this.btnRedimensionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRedimensionar.ForeColor = System.Drawing.Color.Transparent;
+            this.btnRedimensionar.Location = new System.Drawing.Point(644, 12);
             this.btnRedimensionar.Name = "btnRedimensionar";
-            this.btnRedimensionar.Size = new System.Drawing.Size(49, 50);
+            this.btnRedimensionar.Size = new System.Drawing.Size(62, 53);
             this.btnRedimensionar.TabIndex = 19;
             this.btnRedimensionar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnRedimensionar.UseVisualStyleBackColor = false;
@@ -156,11 +163,15 @@
             // btnSalvar
             // 
             this.btnSalvar.BackColor = System.Drawing.Color.Transparent;
+            this.btnSalvar.BackgroundImage = global::Red_Wage.Properties.Resources.salvar;
+            this.btnSalvar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalvar.Image = global::Red_Wage.Properties.Resources.salvar;
-            this.btnSalvar.Location = new System.Drawing.Point(701, 14);
+            this.btnSalvar.FlatAppearance.BorderSize = 0;
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar.ForeColor = System.Drawing.Color.Transparent;
+            this.btnSalvar.Location = new System.Drawing.Point(712, 14);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(49, 50);
+            this.btnSalvar.Size = new System.Drawing.Size(62, 53);
             this.btnSalvar.TabIndex = 20;
             this.btnSalvar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSalvar.UseVisualStyleBackColor = false;

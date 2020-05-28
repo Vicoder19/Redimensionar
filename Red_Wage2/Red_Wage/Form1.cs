@@ -48,6 +48,7 @@ namespace Red_Wage
         }
         public void RegistraLog(Exception ex)
         {
+            Directory.CreateDirectory(@"C:\Imagens");
             string caminhoLog = @"C:\Imagens\log.txt";
             if (!File.Exists(caminhoLog))
             {
@@ -119,8 +120,7 @@ namespace Red_Wage
                 catch (Exception ex)
                 {
                     RegistraLog(ex);
-                    MessageBox.Show("Erro ao salvar. Verifique com o Suporte", "Erro ao Salvar");
-                    MessageBoxButtons buttons = MessageBoxButtons.OK;
+                    MessageBox.Show("Erro ao salvar. Verifique com o Suporte", "Erro ao Salvar", MessageBoxButtons.OK,MessageBoxIcon.Error);                    
                 }
             }
             lblTamanhoOriginal.Text = "Tamanho Original: ";
